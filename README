@@ -1,0 +1,39 @@
+The code in this directory contains the code for the benchmark sample called Day Trader.  This sample was contributed by IBM to the Apache Geronimo project under the ASF license to further functional and performance testing of Geronimo.  
+
+BUILD
+
+To build the dayTrader EAR, you need to have Maven 2 installed.   This can be found at http://maven.apache.org.  Once installed you can build DayTrader by executing the following command from the dayTrader root directory (the directory containing this README).:
+
+mvn install
+
+This should build the daytrader-ear-1.1.ear in the modules/ear/target directory.
+
+INSTALL
+
+Before installing the EAR, you will need to create the tradedb database.  
+
+The scripts below use ${GERONIMO_HOME} and ${DAYTRADER_HOME} as the root directory for each project.  You will need to either set these environment variables yourself or adjust the commands with the absolute path as required.  Windows users will need to use the appropriate Windows commands.  
+
+1. Start the Apache Geronimo Application Server.
+2. Copy the geronimo-daytrader-derby-db-1.1.jar into the Geronimo repository
+   a. mkdir -p ${GERONIMO_HOME}/repository/geronimo/geronimo-daytrader-derby-db/1.1
+   b. cp ${DAYTRADER_HOME}/derby/geronimo-daytrader-derby-db-1.1.jar ${GERONIMO_HOME}/repository/geronimo/geronimo-daytrader-derby-db/1.1/
+   c. java -jar ${GERONIMO_HOME}/bin/deployer.jar deploy ${DAYTRADER_HOME}/modules/ear/target/daytrader-ear-1.1.ear \
+                ${DAYTRADER_HOME}/plans/[tomcat | jetty]-plan.xml
+   note: specify the tomcat or jetty based on the variant of Geronimo that was installed.
+
+When the above steps are completed you need to populate the database.  Do this by accessing the application at http://<hostname>:<port>/daytrader.
+
+You can then choose configuration and select a Population size.  The default is 50 and 100 which is quite small.  Choose a sample that makes sense for your testing requirements.  Tests in the performance report which will be available at http://geronimo.apache.org were conducted with a population size of 5000 and 10000 respectively.
+
+When the configuration has been updated (after selecting the "Update" button at the bottom of the screen you will then need to select Populate Trade Database on the configuration screen.
+
+Post questions and comments to the Geronimo User mailing list at user@geronimo.apache.org.
+
+RUN
+
+Access the dayTrader application at http://<hostname>:<port>/daytrader.  To begin trading, go to 'Configuration -> (Re)-populate Trade Database'. This creates the fictional users, stocks, prices, etc. in the database and may take a while.  After this you can go to 'Go Trade!' to begin trading.
+
+ACKNOWLEDGEMENTS
+
+Many thanks to Gianny Damour and David Jencks for helping to get the sample to its working state.  Also to Jeff Genender and Bryan Noll for putting a lot of work into testing this Application on other Application Servers.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jboss-web PUBLIC "-//JBoss//DTD Web Application 2.3//EN" "http://www.jboss.org/j2ee/dtd/jboss-web_4_0.dtd">
+
+<jboss-web>
+
+      <resource-ref>
+         <res-ref-name>jdbc/TradeDataSource</res-ref-name>
+        <jndi-name>jdbc/TradeDataSource</jndi-name>
+      </resource-ref>
+      
+      <resource-ref>
+         <res-ref-name>jms/QueueConnectionFactory</res-ref-name>
+         <jndi-name>ConnectionFactory</jndi-name>
+      </resource-ref>
+
+      <resource-ref>
+         <res-ref-name>jms/TopicConnectionFactory</res-ref-name>
+         <jndi-name>ConnectionFactory</jndi-name>
+      </resource-ref>
+
+      <ejb-ref>
+         <ejb-ref-name>ejb/Trade</ejb-ref-name>
+         <jndi-name>Trade</jndi-name>
+      </ejb-ref>
+      
+      <ejb-ref>
+         <ejb-ref-name>ejb/Quote</ejb-ref-name>
+         <jndi-name>Quote</jndi-name> 
+      </ejb-ref>
+
+        
+      <message-destination-ref>
+         <message-destination-ref-name>jms/TradeBrokerQueue</message-destination-ref-name>
+         <jndi-name>TradeBrokerQueue</jndi-name>
+      </message-destination-ref>
+
+      <message-destination-ref>
+         <message-destination-ref-name>jms/TradeStreamerTopic</message-destination-ref-name>
+         <jndi-name>TradeStreamerTopic</jndi-name>
+      </message-destination-ref>
+</jboss-web>

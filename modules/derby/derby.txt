@@ -1,0 +1,3 @@
+connect 'jdbc:derby://localhost:1527/DaytraderDatabase;create=true';
+run 'src/sql/daytrader.sql';
+commit;
