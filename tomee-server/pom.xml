@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>geronimo</groupId>
+        <artifactId>daytrader</artifactId>
+        <version>1.1</version>
+        <relativePath>../</relativePath>
+    </parent>
+    <groupId>geronimo</groupId>
+    <artifactId>tomee-server</artifactId>
+    <version>1.1</version>
+    <name>DayTrader :: TomEE Server</name>
+    <packaging>pom</packaging>
+    <description>Daytrader - Fully configured TomEE Server</description>
+
+    <dependencies>
+
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomee.maven</groupId>
+                <artifactId>tomee-maven-plugin</artifactId>
+                <version>8.0.5-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <id>build</id>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                </executions>
+                <configuration>
+                    <apps>
+                        <app>geronimo:daytrader-ear:1.1:ear</app>
+                    </apps>
+                    <tomeeClassifier>plume</tomeeClassifier>
+                    <config>config</config>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

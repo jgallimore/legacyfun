@@ -101,6 +101,7 @@
         <module>modules/streamer</module>
         <module>modules/wsappclient</module>
         <module>modules/ear</module>
+        <module>tomee-server</module>
     </modules>
     <dependencyManagement>
         <dependencies>
