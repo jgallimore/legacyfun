@@ -45,7 +45,7 @@
             </manifestEntries>
             <manifest>
 <!--              <addClasspath>true</addClasspath>  -->
-              <main-class>org.apache.geronimo.samples.daytrader.client.TradeClient</main-class>
+              <main-class>org.daytrader.client.TradeClient</main-class>
             </manifest>
           </archive>
         </configuration>

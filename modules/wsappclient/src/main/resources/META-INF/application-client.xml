@@ -7,7 +7,7 @@
 		<description>WSDL Service Trade</description>
 		<service-ref-name>service/Trade</service-ref-name>
 		<service-interface>
-			org.apache.geronimo.samples.daytrader.client.ws.Trade
+			org.daytrader.client.ws.Trade
 		</service-interface>
 		<wsdl-file>META-INF/wsdl/TradeServices.wsdl</wsdl-file>
 		<jaxrpc-mapping-file>
@@ -19,7 +19,7 @@
 		</service-qname>
 		<port-component-ref>
 			<service-endpoint-interface>
-				org.apache.geronimo.samples.daytrader.client.ws.TradeWSServices
+				org.daytrader.client.ws.TradeWSServices
 			</service-endpoint-interface>
 		</port-component-ref>
 	</service-ref>

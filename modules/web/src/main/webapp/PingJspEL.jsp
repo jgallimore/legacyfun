@@ -4,7 +4,7 @@
 	<title>PingJspEL</title>
 </head>
 <body>
-<%@ page import="org.apache.geronimo.samples.daytrader.*" session="false" %>
+<%@ page import="org.daytrader.*" session="false" %>
 
 <%!
 int hitCount = 0;

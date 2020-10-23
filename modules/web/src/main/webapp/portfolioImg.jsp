@@ -7,7 +7,7 @@
 </HEAD>
 <BODY bgcolor="#ffffff" link="#000099" vlink="#000099">
 <%@ page
-	import="java.util.Collection, java.util.Iterator, java.util.HashMap, java.math.BigDecimal, org.apache.geronimo.samples.daytrader.*, org.apache.geronimo.samples.daytrader.util.*"
+	import="java.util.Collection, java.util.Iterator, java.util.HashMap, java.math.BigDecimal, org.daytrader.*, org.daytrader.util.*"
 	session="true" isThreadSafe="true" isErrorPage="false"%>
 <jsp:useBean id="results" scope="request" type="java.lang.String" />
 <jsp:useBean id="holdingDataBeans" type="java.util.Collection"

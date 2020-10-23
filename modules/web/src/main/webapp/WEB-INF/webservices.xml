@@ -8,7 +8,7 @@
         <port-component>
             <port-component-name>TradeWSServices</port-component-name>
             <wsdl-port xmlns:pfx="http://daytrader.samples.geronimo.apache.org">pfx:TradeWSServices</wsdl-port>
-            <service-endpoint-interface>org.apache.geronimo.samples.daytrader.TradeWSServices</service-endpoint-interface>
+            <service-endpoint-interface>org.daytrader.TradeWSServices</service-endpoint-interface>
             <service-impl-bean>
                 <servlet-link>org_apache_geronimo_samples_daytrader_TradeWSAction</servlet-link>
             </service-impl-bean>

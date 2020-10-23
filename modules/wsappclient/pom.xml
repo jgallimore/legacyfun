@@ -41,7 +41,7 @@
               <class-path>dt-ejb.jar</class-path>
             </manifestEntries>
             <manifest>
-              <main-class>org.apache.geronimo.samples.daytrader.client.ws.ClientApp</main-class>
+              <main-class>org.daytrader.client.ws.ClientApp</main-class>
             </manifest>
           </archive>
         </configuration>
@@ -51,7 +51,7 @@
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>wsdl2java-maven-plugin</artifactId>
         <configuration>
-          <packageSpace>org.apache.geronimo.samples.daytrader.client.ws</packageSpace>
+          <packageSpace>org.daytrader.client.ws</packageSpace>
 	      <serverSide>true</serverSide>
         </configuration>
         <executions>

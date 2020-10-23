@@ -7,14 +7,14 @@
 </HEAD>
 <BODY bgcolor="#ffffff" link="#000099" vlink="#000099">
 <%@ page
-	import="java.util.Collection, java.util.Iterator, java.math.BigDecimal, org.apache.geronimo.samples.daytrader.*, org.apache.geronimo.samples.daytrader.util.*"
+	import="java.util.Collection, java.util.Iterator, java.math.BigDecimal, org.daytrader.*, org.daytrader.util.*"
 	session="true" isThreadSafe="true" isErrorPage="false"%>
 <jsp:useBean id="results" scope="request" type="java.lang.String" />
 <jsp:useBean id="accountData"
-	type="org.apache.geronimo.samples.daytrader.AccountDataBean"
+	type="org.daytrader.AccountDataBean"
 	scope="request" />
 <jsp:useBean id="accountProfileData"
-	type="org.apache.geronimo.samples.daytrader.AccountProfileDataBean"
+	type="org.daytrader.AccountProfileDataBean"
 	scope="request" />
 <jsp:useBean id="orderDataBeans" type="java.util.Collection"
 	scope="request" />

@@ -1,5 +1,5 @@
 <%@ page
-	import="java.util.Collection, java.util.Iterator, java.math.BigDecimal, org.apache.geronimo.samples.daytrader.*, org.apache.geronimo.samples.daytrader.util.*, org.apache.geronimo.samples.daytrader.soap.*"
+	import="java.util.Collection, java.util.Iterator, java.math.BigDecimal, org.daytrader.*, org.daytrader.util.*, org.daytrader.soap.*"
 	session="true" isThreadSafe="true" isErrorPage="false"%>
 
 <%

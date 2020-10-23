@@ -1,4 +1,4 @@
-package org.apache.geronimo.samples.daytrader;
+package org.daytrader;
 
 import java.io.File;
 

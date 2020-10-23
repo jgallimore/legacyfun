@@ -2,11 +2,11 @@
 <java-wsdl-mapping version="1.1" xmlns="http://java.sun.com/xml/ns/j2ee"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://www.ibm.com/webservices/xsd/j2ee_jaxrpc_mapping_1_1.xsd">
     <package-mapping>
-        <package-type>org.apache.geronimo.samples.daytrader</package-type>
+        <package-type>org.daytrader</package-type>
         <namespaceURI>http://daytrader.samples.geronimo.apache.org</namespaceURI>
     </package-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.QuoteDataBean[]</java-type>
+        <java-type>org.daytrader.QuoteDataBean[]</java-type>
         <anonymous-type-qname>http://daytrader.samples.geronimo.apache.org:QuoteDataBean[0,unbounded]</anonymous-type-qname>
         <qname-scope>complexType</qname-scope>
     </java-xml-type-mapping>
@@ -16,7 +16,7 @@
         <qname-scope>simpleType</qname-scope>
     </java-xml-type-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.OrderDataBean</java-type>
+        <java-type>org.daytrader.OrderDataBean</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:OrderDataBean</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -62,7 +62,7 @@
         <qname-scope>simpleType</qname-scope>
     </java-xml-type-mapping>   -->
 <!--    <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.OrderDataBean[]</java-type>
+        <java-type>org.daytrader.OrderDataBean[]</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:ArrayOfOrderDataBean</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -76,7 +76,7 @@
         <qname-scope>simpleType</qname-scope>
     </java-xml-type-mapping>  -->
 <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.AccountProfileDataBean</java-type>
+        <java-type>org.daytrader.AccountProfileDataBean</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:AccountProfileDataBean</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -105,7 +105,7 @@
         </variable-mapping>
     </java-xml-type-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.AccountDataBean</java-type>
+        <java-type>org.daytrader.AccountDataBean</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:AccountDataBean</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -142,7 +142,7 @@
         </variable-mapping>
     </java-xml-type-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.RunStatsDataBean</java-type>
+        <java-type>org.daytrader.RunStatsDataBean</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:RunStatsDataBean</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -195,7 +195,7 @@
         </variable-mapping>
     </java-xml-type-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.HoldingDataBean[]</java-type>
+        <java-type>org.daytrader.HoldingDataBean[]</java-type>
         <anonymous-type-qname>http://daytrader.samples.geronimo.apache.org:HoldingDataBean[0,unbounded]</anonymous-type-qname>
         <qname-scope>complexType</qname-scope>
     </java-xml-type-mapping>
@@ -205,7 +205,7 @@
         <qname-scope>simpleType</qname-scope>
     </java-xml-type-mapping>  -->
 <!--    <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.HoldingDataBean[]</java-type>
+        <java-type>org.daytrader.HoldingDataBean[]</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:ArrayOfHoldingDataBean</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -214,7 +214,7 @@
         </variable-mapping>
     </java-xml-type-mapping> -->
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.QuoteDataBean</java-type>
+        <java-type>org.daytrader.QuoteDataBean</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:QuoteDataBean</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -251,7 +251,7 @@
         </variable-mapping>
     </java-xml-type-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.MarketSummaryDataBeanWS</java-type>
+        <java-type>org.daytrader.MarketSummaryDataBeanWS</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:MarketSummaryDataBeanWS</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -280,7 +280,7 @@
         </variable-mapping>
     </java-xml-type-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.HoldingDataBean</java-type>
+        <java-type>org.daytrader.HoldingDataBean</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:HoldingDataBean</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -310,7 +310,7 @@
         <qname-scope>simpleType</qname-scope>
     </java-xml-type-mapping>  -->
 <!--    <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.QuoteDataBean[]</java-type>
+        <java-type>org.daytrader.QuoteDataBean[]</java-type>
         <root-type-qname xmlns:rtq="http://daytrader.samples.geronimo.apache.org">rtq:ArrayOfQuoteDataBean</root-type-qname>
         <qname-scope>complexType</qname-scope>
         <variable-mapping>
@@ -324,27 +324,27 @@
         <qname-scope>simpleType</qname-scope>
     </java-xml-type-mapping>   -->
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.OrderDataBean[]</java-type>
+        <java-type>org.daytrader.OrderDataBean[]</java-type>
         <anonymous-type-qname>http://daytrader.samples.geronimo.apache.org:OrderDataBean[0,unbounded]</anonymous-type-qname>
         <qname-scope>complexType</qname-scope>
     </java-xml-type-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.QuoteDataBean[]</java-type>
+        <java-type>org.daytrader.QuoteDataBean[]</java-type>
         <anonymous-type-qname>http://daytrader.samples.geronimo.apache.org:ArrayOfQuoteDataBean&gt;QuoteDataBean[0,unbounded]</anonymous-type-qname>
         <qname-scope>complexType</qname-scope>
     </java-xml-type-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.HoldingDataBean[]</java-type>
+        <java-type>org.daytrader.HoldingDataBean[]</java-type>
         <anonymous-type-qname>http://daytrader.samples.geronimo.apache.org:ArrayOfHoldingDataBean&gt;HoldingDataBean[0,unbounded]</anonymous-type-qname>
         <qname-scope>complexType</qname-scope>
     </java-xml-type-mapping>
     <java-xml-type-mapping>
-        <java-type>org.apache.geronimo.samples.daytrader.OrderDataBean[]</java-type>
+        <java-type>org.daytrader.OrderDataBean[]</java-type>
         <anonymous-type-qname>http://daytrader.samples.geronimo.apache.org:ArrayOfOrderDataBean&gt;OrderDataBean[0,unbounded]</anonymous-type-qname>
         <qname-scope>complexType</qname-scope>
     </java-xml-type-mapping>
     <service-interface-mapping>
-        <service-interface>org.apache.geronimo.samples.daytrader.Trade</service-interface>
+        <service-interface>org.daytrader.Trade</service-interface>
         <wsdl-service-name xmlns:sim="http://daytrader.samples.geronimo.apache.org">sim:Trade</wsdl-service-name>
         <port-mapping>
             <port-name>TradeWSServices</port-name>
@@ -352,7 +352,7 @@
         </port-mapping>
     </service-interface-mapping>
     <service-endpoint-interface-mapping>
-        <service-endpoint-interface>org.apache.geronimo.samples.daytrader.TradeWSServices</service-endpoint-interface>
+        <service-endpoint-interface>org.daytrader.TradeWSServices</service-endpoint-interface>
         <wsdl-port-type xmlns:seimwpt="http://daytrader.samples.geronimo.apache.org">seimwpt:TradeWSServices</wsdl-port-type>
         <wsdl-binding xmlns:seimwb="http://daytrader.samples.geronimo.apache.org">seimwb:TradeWSServicesSoapBinding</wsdl-binding>
         <service-endpoint-method-mapping>
@@ -369,7 +369,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.HoldingDataBean[]</method-return-value>
+                <method-return-value>org.daytrader.HoldingDataBean[]</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:getHoldingsResponse</wsdl-message>
                 <wsdl-message-part-name>getHoldingsReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -380,7 +380,7 @@
             <wrapped-element/>
             <method-param-parts-mapping>
                 <param-position>0</param-position>
-                <param-type>org.apache.geronimo.samples.daytrader.AccountProfileDataBean</param-type>
+                <param-type>org.daytrader.AccountProfileDataBean</param-type>
                 <wsdl-message-mapping>
                     <wsdl-message xmlns:mppm="http://daytrader.samples.geronimo.apache.org">mppm:updateAccountProfileRequest</wsdl-message>
                     <wsdl-message-part-name>profileData</wsdl-message-part-name>
@@ -388,7 +388,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.AccountProfileDataBean</method-return-value>
+                <method-return-value>org.daytrader.AccountProfileDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:updateAccountProfileResponse</wsdl-message>
                 <wsdl-message-part-name>updateAccountProfileReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -398,7 +398,7 @@
             <wsdl-operation>getMarketSummary</wsdl-operation>
             <wrapped-element/>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.MarketSummaryDataBeanWS</method-return-value>
+                <method-return-value>org.daytrader.MarketSummaryDataBeanWS</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:getMarketSummaryResponse</wsdl-message>
                 <wsdl-message-part-name>getMarketSummaryReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -435,7 +435,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.QuoteDataBean</method-return-value>
+                <method-return-value>org.daytrader.QuoteDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:updateQuotePriceVolumeResponse</wsdl-message>
                 <wsdl-message-part-name>updateQuotePriceVolumeReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -508,7 +508,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.AccountDataBean</method-return-value>
+                <method-return-value>org.daytrader.AccountDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:registerResponse</wsdl-message>
                 <wsdl-message-part-name>registerReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -527,7 +527,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.HoldingDataBean</method-return-value>
+                <method-return-value>org.daytrader.HoldingDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:getHoldingResponse</wsdl-message>
                 <wsdl-message-part-name>getHoldingReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -546,7 +546,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.OrderDataBean[]</method-return-value>
+                <method-return-value>org.daytrader.OrderDataBean[]</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:getOrdersResponse</wsdl-message>
                 <wsdl-message-part-name>getOrdersReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -619,7 +619,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.AccountDataBean</method-return-value>
+                <method-return-value>org.daytrader.AccountDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:getAccountDataResponse</wsdl-message>
                 <wsdl-message-part-name>getAccountDataReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -656,7 +656,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.OrderDataBean</method-return-value>
+                <method-return-value>org.daytrader.OrderDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:sellResponse</wsdl-message>
                 <wsdl-message-part-name>sellReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -702,7 +702,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.OrderDataBean[]</method-return-value>
+                <method-return-value>org.daytrader.OrderDataBean[]</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:getClosedOrdersResponse</wsdl-message>
                 <wsdl-message-part-name>getClosedOrdersReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -739,7 +739,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.RunStatsDataBean</method-return-value>
+                <method-return-value>org.daytrader.RunStatsDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:resetTradeResponse</wsdl-message>
                 <wsdl-message-part-name>resetTradeReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -776,7 +776,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.QuoteDataBean</method-return-value>
+                <method-return-value>org.daytrader.QuoteDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:createQuoteResponse</wsdl-message>
                 <wsdl-message-part-name>createQuoteReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -822,7 +822,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.OrderDataBean</method-return-value>
+                <method-return-value>org.daytrader.OrderDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:buyResponse</wsdl-message>
                 <wsdl-message-part-name>buyReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -832,7 +832,7 @@
             <wsdl-operation>getAllQuotes</wsdl-operation>
             <wrapped-element/>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.QuoteDataBean[]</method-return-value>
+                <method-return-value>org.daytrader.QuoteDataBean[]</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:getAllQuotesResponse</wsdl-message>
                 <wsdl-message-part-name>getAllQuotesReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -860,7 +860,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.AccountDataBean</method-return-value>
+                <method-return-value>org.daytrader.AccountDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:loginResponse</wsdl-message>
                 <wsdl-message-part-name>loginReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -879,7 +879,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.AccountProfileDataBean</method-return-value>
+                <method-return-value>org.daytrader.AccountProfileDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:getAccountProfileDataResponse</wsdl-message>
                 <wsdl-message-part-name>getAccountProfileDataReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -898,7 +898,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.QuoteDataBean</method-return-value>
+                <method-return-value>org.daytrader.QuoteDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:getQuoteResponse</wsdl-message>
                 <wsdl-message-part-name>getQuoteReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>
@@ -926,7 +926,7 @@
                 </wsdl-message-mapping>
             </method-param-parts-mapping>
             <wsdl-return-value-mapping>
-                <method-return-value>org.apache.geronimo.samples.daytrader.OrderDataBean</method-return-value>
+                <method-return-value>org.daytrader.OrderDataBean</method-return-value>
                 <wsdl-message xmlns:wrvm="http://daytrader.samples.geronimo.apache.org">wrvm:completeOrderResponse</wsdl-message>
                 <wsdl-message-part-name>completeOrderReturn</wsdl-message-part-name>
             </wsdl-return-value-mapping>

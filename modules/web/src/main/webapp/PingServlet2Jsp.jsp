@@ -7,10 +7,10 @@
 <title>PingJsp</title>
 </head>
 <BODY>
-<%@ page import="org.apache.geronimo.samples.daytrader.web.prims.PingBean" %>
+<%@ page import="org.daytrader.web.prims.PingBean" %>
 <%! String initTime = (new java.util.Date()).toString(); 
  %>
-<jsp:useBean id="ab" type="org.apache.geronimo.samples.daytrader.web.prims.PingBean" scope="request" />
+<jsp:useBean id="ab" type="org.daytrader.web.prims.PingBean" scope="request" />
 <HR>
 <FONT size="+2" color="#000066"><BR>
 Ping Servlet2JSP:<BR>

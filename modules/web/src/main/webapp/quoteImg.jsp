@@ -8,7 +8,7 @@
 
 <BODY bgcolor="#ffffff" link="#000099" vlink="#000099">
 <%@ page
-	import="java.util.Collection, java.util.Iterator, java.math.BigDecimal, org.apache.geronimo.samples.daytrader.*, org.apache.geronimo.samples.daytrader.util.*"
+	import="java.util.Collection, java.util.Iterator, java.math.BigDecimal, org.daytrader.*, org.daytrader.util.*"
 	session="true" isThreadSafe="true" isErrorPage="false"%>
 
 <TABLE height="54">

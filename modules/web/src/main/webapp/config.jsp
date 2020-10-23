@@ -5,7 +5,7 @@
 <TITLE>Welcome to DayTrader</TITLE>
 </HEAD>
 <BODY bgcolor="#ffffff" link="#000099">
-<%@ page import="org.apache.geronimo.samples.daytrader.TradeConfig"
+<%@ page import="org.daytrader.TradeConfig"
 	session="false" isThreadSafe="true" isErrorPage="false"%>
 
 <TABLE style="font-size: smaller">
